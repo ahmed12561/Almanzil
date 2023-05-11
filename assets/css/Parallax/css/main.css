@@ -101,7 +101,7 @@ h1 {
 
 mark {
   background: #ff0;
-  color: #000;
+  color: #ffffff;
 }
 
 small {
@@ -249,15 +249,15 @@ th {
 }
 
 ::-moz-selection {
-  background: #fff;
+  background: #0c0c0c;
 }
 
 ::selection {
-  background: #fff;
+  background: #0c0c0c;
 }
 
 ::-moz-selection {
-  background: #fff;
+  background: #0c0c0c;
 }
 
 img::-moz-selection {
@@ -273,7 +273,7 @@ img::-moz-selection {
 }
 
 body {
-  -webkit-tap-highlight-color: #fff;
+  -webkit-tap-highlight-color: #0c0c0c;
 }
 
 .body {
@@ -642,6 +642,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 auto;
+  color: #fff;
 }
 @media (max-width: 1180px) {
   .intro {
@@ -727,7 +728,7 @@ body {
 .intro--options > a {
   max-width: 250px;
   text-decoration: none;
-  color: #282828;
+  color: #fff;
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
@@ -737,6 +738,7 @@ body {
 .intro--options h3 {
   font-size: 16px;
   text-transform: uppercase;
+  color: #fff;
 }
 .intro--options p {
   margin-bottom: 0;
@@ -822,6 +824,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 auto;
+  color: #fff;
 }
 @media (max-width: 1180px) {
   .work {
@@ -853,7 +856,7 @@ body {
 }
 .work--lockup .slider--item a {
   text-decoration: none;
-  color: #858585;
+  color: #ffffff;
 }
 .work--lockup .slider--item-title {
   margin-top: 10px;
@@ -1007,6 +1010,7 @@ body {
 .about--banner {
   position: relative;
   height: 475px;
+  color: #fff;
 }
 .about--banner::before {
   content: "";
@@ -1295,6 +1299,7 @@ body {
   margin: 0 0 20px 0;
   font-size: 30px;
   text-align: center;
+  color: #fff;
 }
 
 .work-request {
